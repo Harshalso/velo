@@ -1,0 +1,6 @@
+{
+  "name": "Velo Wellness",
+  "description": "Velo — practical, personalized wellness for real life.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
