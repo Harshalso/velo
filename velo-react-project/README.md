@@ -1,43 +1,26 @@
-# Velo Wellness — React landing page
+# Velo Wellness
 
-A responsive React + Vite recreation based on the supplied Fitelo HTML landing-page structure, rebranded as **Velo** with a fresh visual identity and mock photography.
+Official website and member portal for **Velo Wellness** — practical, personalized nutrition, holistic wellness, and sustainable habit coaching.
 
-## Included
-- React components and Vite project setup
-- Responsive desktop, tablet, and mobile layout
-- Velo branding, warm coral and sage palette, typography
-- Unsplash stock images used as illustrative mock imagery
-- Interactive FAQ accordion
-- Demo 5-minute countdown timer
-- Consultation form with client-side confirmation (no data is sent)
-- Mobile navigation
-- Accessibility labels and a wellness disclaimer
+## Key Features
+- Responsive design tailored for desktop, tablet, and mobile devices
+- Warm coral and sage visual identity with DM Sans and Manrope typography
+- 3-Pillar Velo Method overview (Nourish, Reconnect, Move)
+- Client health journey journals
+- 1-on-1 personalized wellness consultation request flow
+- Interactive questions and answers library
+- Dynamic introductory offer countdown
 
-## Run locally
-Requirements: Node.js 18+ and npm.
+## Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open the local URL printed by Vite, usually `http://localhost:5173`.
+## Production Build
 
-## Production build
 ```bash
 npm run build
 npm run preview
 ```
-
-## Customize
-- Main page content: `src/App.jsx`
-- Styling: `src/styles.css`
-- Page metadata: `index.html`
-- Image URLs are defined near the top of `src/App.jsx` in the `photos` and `results` arrays.
-
-## Important notes
-- The image links require an internet connection. Replace them with licensed local assets for production.
-- The profiles and stories are illustrative placeholders, not real client testimonials or measured outcomes.
-- The countdown is a demo interaction and resets every five minutes. Remove it or connect it to a genuine offer deadline before launch.
-- The consultation form currently confirms locally only. Connect it to your API, CRM, or booking service to receive submissions.
-- This is a wellness landing-page demo, not medical advice.
