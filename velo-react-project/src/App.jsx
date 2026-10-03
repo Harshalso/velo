@@ -62,17 +62,43 @@ function App() {
     <main id="top">
       <section className="hero section-wrap">
         <div className="hero-copy">
-          <div className="eyebrow"><span className="eyebrow-line" /> WELLNESS THAT WORKS WITH REAL LIFE</div>
+          <div className="eyebrow hero-eyebrow"><span className="eyebrow-line" /> WELLNESS THAT WORKS WITH REAL LIFE</div>
           <h1>Small steps.<br /><em>Lasting change.</em></h1>
           <p className="hero-lede">Feel good in your everyday. Build healthier habits with practical food ideas, mindful movement, and support that meets you where you are.</p>
           <div className="hero-actions"><a className="button button-primary" href="#consultation">Find your starting point <ArrowRight size={18} /></a><a className="text-link" href="#approach">Explore the Velo way <span>↓</span></a></div>
           <div className="hero-trust"><div className="avatar-stack"><img src={results[0].image} alt="" /><img src={results[1].image} alt="" /><img src={results[2].image} alt="" /></div><div><div className="stars">★★★★★</div><span>Made for real people and real routines</span></div></div>
         </div>
         <div className="hero-visual">
-          <div className="hero-image-wrap"><img className="hero-image" src={photos.hero} alt="Fresh, colourful ingredients for a balanced meal" /></div>
-          <div className="floating-note note-top"><span className="note-icon"><Leaf size={18} /></span><div><strong>Simple, balanced choices</strong><small>One day at a time</small></div></div>
-          <div className="floating-note note-bottom"><span className="note-icon note-heart"><Heart size={18} /></span><div><strong>Your pace. Your progress.</strong><small>Progress over perfection</small></div></div>
-          <div className="hero-stamp"><span>FEEL</span><span>GOOD</span><span>DAILY <Sparkles size={14} /></span></div>
+          <div className="sphere-glow-backdrop" aria-hidden="true" />
+          <div className="sphere-orbit-ring orbit-outer" aria-hidden="true">
+            <span className="orbit-dot dot-1" />
+            <span className="orbit-dot dot-2" />
+          </div>
+          <div className="sphere-orbit-ring orbit-inner" aria-hidden="true" />
+
+          <div className="hero-image-wrap sphere-main">
+            <img className="hero-image" src={photos.hero} alt="Fresh, colourful ingredients for a balanced meal in an attractive spherical presentation" />
+            <div className="sphere-specular" aria-hidden="true" />
+            <div className="sphere-depth-shadow" aria-hidden="true" />
+          </div>
+
+          <div className="micro-orb orb-coral" aria-hidden="true" />
+          <div className="micro-orb orb-sage" aria-hidden="true" />
+
+          <div className="floating-note note-top">
+            <span className="note-icon"><Leaf size={18} /></span>
+            <div><strong>Simple, balanced choices</strong><small>One day at a time</small></div>
+          </div>
+          <div className="floating-note note-bottom">
+            <span className="note-icon note-heart"><Heart size={18} /></span>
+            <div><strong>Your pace. Your progress.</strong><small>Progress over perfection</small></div>
+          </div>
+          <div className="hero-stamp spherical-badge">
+            <div className="stamp-inner">
+              <span>FEEL GOOD</span>
+              <span className="stamp-highlight">DAILY <Sparkles size={13} /></span>
+            </div>
+          </div>
         </div>
       </section>
 
